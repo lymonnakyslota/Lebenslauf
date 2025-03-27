@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Lebenslauf - Olena Danilets</title>
+    <style>
+      @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.contacts-item span {
+  display: inline-block;
+  animation: pulse 1.5s infinite;
+}
+        body {
+          background-color: #8e7d7abe;
+          font-family: 'Montserrat', sans-serif;
+          color: #333;
+          margin: 0;
+          padding: 20px;
+        }
+        .wrapper {
+          max-width: 900px;
+          margin: 0 auto;
+          background: white;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .main-content {
+          flex: 2;
+          padding: 20px;
+        }
+        .sidebar {
+          flex: 1;
+          background: #8e9ec563;
+          color: white;
+          padding: 20px;
+          border-radius: 10px;
+        }
+        .sidebar a {
+          color: #f9f3f3f4;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        h1, h2, h3 {
+          color: #000000fd;
+        }
+        .contacts-item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        @media (max-width: 768px) {
+          .wrapper {
+            flex-direction: column;
+          }
+        }
+      </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main-content">
+        <div class="about-me-container">
+          <h2 class="my-profession">Lebenslauf</h2>
+          <h1 class="my-name">Olena Danilets</h1>
+          <p class="my-descr">
+            Ich bin eine engagierte und lernbereite Person mit guten Kenntnissen in MS Office 
+            und schneller Informationsverarbeitung. Ich bin zuverlässig, teamfähig und flexibel.
+            Meine schnelle Auffassungsgabe und meine Neugier motivieren mich, stets Neues zu lernen und mich weiterzuentwickeln
+        </p>
+        </div>
+
+      <aside class="sidebar">
+        <img
+          src="myphoto.jpg"
+          alt="My photo"
+          width="170px"
+          class="my-photo"
+        />
+      <aside class="sidebar">
+        <div class="contacts-container">
+          <h3 class="sidebar-title">Kontakt</h3>
+          <p class="contacts-item">
+            <span class="contacts-type">📞</span>
+            <a href="tel:+4915111520567">+49 151 11520567 </a>
+          </p>
+          <p class="contacts-item">
+            <span class="contacts-type"> ✉️</span>
+            <a href="mailto:elenadanilec87@gmail.com">elenadanilec87@gmail.com  </a>
+          </p>
+          <p class="contacts-item">
+            <span class="contacts-type">📍</span>
+            Am Schulsteig 8, 29559 Wrestedt, Bollensen
+          </p>
+        </div>
+        <div class="education-container">
+          <h3 class="my-content-title">Bildungsweg</h3>
+          <ul>
+            <li>2010 – 2019: Allgemeine Sekundarschulbildung, Buzka-Sekundarschule</li>
+            <li>2019 – 2021: Vollständige allgemeine mittlere Bildung, Kolleg Wosnessensk der Nationalen Universität für Agrarwissenschaften Mykolajiw</li>
+            <li>2019 – 2022: Juniorspezialist, Kolleg Wosnessensk der Nationalen Universität für Agrarwissenschaften Mykolajiw</li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="skills-container">
+          <h3 class="sidebar-title">Fähigkeiten</h3>
+          <ul>
+            <li>MS Office (Word, Excel, PowerPoint) - Sehr gut</li>
+            <li>Schnelle Informationsverarbeitung</li>
+            <li>Lernbereitschaft</li>
+            <li>Teamfähigkeit</li>
+            <li>Selbstständigkeit</li>
+            <li>Zuverlässigkeit</li>
+            <li>Flexibilität</li>
+          </ul>
+        </div>
+
+        <div class="languages-container">
+          <h3 class="sidebar-title">Sprachkenntnisse</h3>
+          <ul>
+            <li> Ukrainisch - Muttersprache</li>
+            <li> Russisch - Fließend</li>
+            <li> Deutsch - B2</li>
+            <li> Englisch - A2</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
